@@ -8,7 +8,7 @@
     <form v-on:submit.prevent="Login">
         <h3>REGISTER!</h3>
           <p>Welcome to our  Vue Chat demo powered by CometChat.
-            Already have an account?, <a href="/register">click here to login</a>  </p>
+            Already have an account?, <a href="/login">click here to login</a>  </p>
             <div class="form-wrapper">
                 <label>Username</label>
                     <input type="text" name="username" id="username" v-model="username" placeholder="Enter your username" class="form-control" required>
